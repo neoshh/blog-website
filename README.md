@@ -1,6 +1,4 @@
-# README #
-
-A simple blogging website.
+# A simple blogging website.
 
 ```
 JavaScript, Express, EJS, NodeJS, Bootstrap
