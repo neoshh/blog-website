@@ -44,7 +44,6 @@ app.get("/compose", function(req, res) {
 app.get("/posts/:topic", function(req, res) {
   for (let i = 0; i < blogPosts.length; i++) {
     if (_.lowerCase(blogPosts[i].title) === _.lowerCase(req.params.topic)) {
-      console.log("Match found");
       res.render("post", {
         postTitle: blogPosts[i].title,
         postContent: blogPosts[i].content
